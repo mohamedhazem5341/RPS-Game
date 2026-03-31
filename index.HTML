@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/RPSico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/main.JS" defer></script>
+    <title>RPS Game</title>
+  </head>
+  <body>
+    <section class="sec1">
+      <div class="gameView">
+        <div id="playerImg" class=""></div>
+        <h1 id="vs" class="vs">VS</h1>
+        <div id="computerImg" class=""></div>
+
+        <div id="resultBar" class="resultBar win"></div>
+      </div>
+
+      <div class="gameBtns">
+        <button id="rock" class="btn" onclick="rock()">
+          <img src="/images/rock.png" alt="" />
+        </button>
+        <button id="paper" class="btn" onclick="paper()">
+          <img class="paper" src="/images/paper.png" alt="" width="150" />
+        </button>
+        <button id="scissors" class="btn" onclick="scissors()">
+          <img class="scissors" src="/images/scissors.png" alt="" />
+        </button>
+      </div>
+    </section>
+
+    <section class="sec2">
+      <div id="gameResult" class="gameResult"></div>
+    </section>
+  </body>
+</html>
